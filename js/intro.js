@@ -16,6 +16,7 @@ $("#toggle-text").click(function() {
 
     $ ("#My-Name").click (function() {
         $ ("#A-box").css("background-color","pink");
+    
 
     });
 
@@ -23,6 +24,14 @@ $("#toggle-text").click(function() {
     $("#A-box").click (function() {
         $("#A-box").css ("Width 500px");
     })
+
+    $("#Secret-Text").click(function() {
+        $("#A-box").hide();
+        $("#Secret-Text").hide();
+        $("#A-box").css("background-color","magenta");
+    });
+
+    
 
 
 
