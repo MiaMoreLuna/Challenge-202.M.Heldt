@@ -11,18 +11,29 @@
 }
 
 #welcome-text{
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 #change-bg-color{
-    color: brown;
+    color: rgb(105, 175, 208);
     margin-top: 3%;
 }
 
 #Secret-Text {
     position: absolute;
-    top: 80%;
-    left: 25%;
+    top: 50%;
+    left: 45%;
 }
 
-.div 
+#A-box {
+    background-color: magenta;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+#A-box-b {
+    background-color: pink;
+}
