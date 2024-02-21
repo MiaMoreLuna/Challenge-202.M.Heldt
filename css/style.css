@@ -31,9 +31,20 @@
     height: 200px;
     position: absolute;
     top: 20%;
-    left: 43%;
+    left: 42%;
 }
 
 #A-box-b {
     background-color: pink;
 }
+
+@keyframes A-box {
+    0% {width: 100%;}
+    50% {width: 120%;}
+    100% {width: 150%;}
+
+}
+    .animate-box {
+        animation: scale-A-box 2s
+    }
+

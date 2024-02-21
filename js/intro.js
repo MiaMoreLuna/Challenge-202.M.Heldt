@@ -20,10 +20,18 @@ $("#toggle-text").click(function() {
 
     });
 
-
+  
     $("#A-box").click (function() {
-        $("#A-box").css ("Width 500px");
-    })
+        $("#A-box").animate ({width: "25%"});
+
+    });
+
+    $("#A-box").click(function() {
+        $("#A-box").animate({width: "200px"});
+    });
+
+   
+
 
     $("#Secret-Text").click(function() {
         $("#A-box").hide();
